@@ -1,4 +1,13 @@
 body{
-  background:black;
-  color:white;
+  background:#D9F9FF;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size:400%;
+}
+#title{
+  color:#212E30;
+}
+#subtext{
+  margin-top:-40px;
 }
