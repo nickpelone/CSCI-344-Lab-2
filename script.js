@@ -3,6 +3,6 @@ twitter.stream("statuses/filter", { lang:"en", track:["Android"] }, function (st
   stream.on("data", function (tweet) {
     var counter = 0;
     $(".tweets").prepend('<p class="tweet">'+ tweet.text);
-    $('p').eq(10).hide(400);
+    $('p').eq(9).hide(400);
   });
 });
